@@ -47,7 +47,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/USERNAME/wino-RAT.git
+https://github.com/Tblak-9/wino-RAT.git
 cd wino-RAT
 ```
 
@@ -64,28 +64,9 @@ pip install -r requirements.txt
 ### Start the server
 
 ```bash
-python server.py
+python main.py
 ```
 
-### Start the client
-
-```bash
-python client.py
-```
-
-Make sure the client and server can communicate over the network.
-
----
-
-## 🎬 Demo
-
-<p align="center">
-  <img src="assets/demo.gif" width="850" alt="wino-RAT Demo">
-</p>
-
-> Add your demonstration GIF to `assets/demo.gif` in the repository.
-
----
 
 ## 🔐 Security
 
