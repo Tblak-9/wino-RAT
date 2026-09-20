@@ -1,0 +1,4 @@
+telebot
+lib-platform
+Pillow
+PyAutoGUI
