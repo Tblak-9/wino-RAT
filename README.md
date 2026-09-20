@@ -1,71 +1,133 @@
-# wino-RAT
-🖥️ Python Remote System Control
-A Python-based Remote System Control tool designed for authorized system administration, security research, and controlled laboratory environments.
-> ⚠️ **Disclaimer:** This project should only be used on systems that you own or have explicit authorization to administer.
+# 🖥️ wino-RAT
+
 <p align="center">
-  <img src="https://YOUR-GIF-URL-1.gif" width="800">
+  <b>Python Remote System Control Tool</b>
 </p>
+
 <p align="center">
-  <img src="https://YOUR-GIF-URL-2.gif" width="800">
+  A Python-based remote administration and system-control tool for authorized environments, cybersecurity research, and laboratory testing.
 </p>
+
+<p align="center">
+  <img src="assets/demo.gif" width="850" alt="wino-RAT Demo">
+</p>
+
 ---
-✨ Features
-🖼️ Remote Screenshot — Capture screenshots from the remote system.
-🔌 Remote Shutdown — Shut down the remote computer.
-💻 System Information — Retrieve hardware and operating-system information.
-🌐 Open Ports — Detect and display open ports on the system.
-🌍 IP Information — Retrieve IP and network information.
-👥 User Enumeration — Retrieve users available on the remote system.
-➕ User Creation — Create a new local user account.
-📂 File Operations — Perform remote file-management operations.
-💣 File Bomb — Generate large numbers of files for controlled stress testing.
-⚠️ System32 Deletion — Destructive testing functionality intended for isolated laboratory environments.
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🖼️ **Remote Screenshot** | Capture screenshots from the remote system |
+| 🔌 **Remote Shutdown** | Shut down the remote computer |
+| 💻 **System Information** | Retrieve hardware and operating-system information |
+| 🌐 **Open Ports** | Detect and display open ports |
+| 🌍 **IP Information** | Retrieve IP and network information |
+| 👥 **User Enumeration** | Retrieve users available on the system |
+| ➕ **User Creation** | Create a new local user account |
+| 📂 **File Operations** | Perform remote file-management operations |
+| 💣 **File Bomb** | Generate large numbers of files for controlled stress testing |
+| ⚠️ **System32 Deletion** | Destructive testing functionality for isolated laboratory environments |
+
 ---
-🛠️ Technologies
-Python 3
-TCP/IP
-Socket Programming
-Windows APIs
-Network Programming
-Remote System Administration
+
+## 🛠️ Technologies
+
+- 🐍 Python 3
+- 🌐 TCP/IP
+- 🔌 Socket Programming
+- 🪟 Windows APIs
+- 💻 Network Programming
+- 🖥️ Remote System Administration
+
 ---
-🚀 Installation
-Clone the repository:
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
-cd REPOSITORY
+git clone https://github.com/USERNAME/wino-RAT.git
+cd wino-RAT
 ```
-Install the required dependencies:
+
+### 2. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
+
 ---
-▶️ Usage
-Start the server:
+
+## ▶️ Usage
+
+### Start the server
+
 ```bash
 python server.py
 ```
-Run the client on the authorized target machine:
+
+### Start the client
+
 ```bash
 python client.py
 ```
+
 Make sure the client and server can communicate over the network.
+
 ---
-⚠️ Destructive Features
-Some features of this project can potentially damage or disrupt a system.
-Features such as File Bomb and System32 Deletion should only be tested inside an isolated virtual machine or dedicated laboratory environment.
-Never run destructive functionality against systems or data without explicit authorization.
----
-📜 Disclaimer
-The author is not responsible for damage, data loss, unauthorized access, or misuse resulting from this software.
-This project is intended for:
-🎓 Educational purposes
-🔬 Cybersecurity research
-🖥️ System administration
-🛡️ Authorized security testing
-🧪 Isolated laboratory environments
-Use responsibly and only on systems you are authorized to control.
----
+
+## 🎬 Demo
+
 <p align="center">
-  <b>Made with ❤️ and Python 🐍</b>
+  <img src="assets/demo.gif" width="850" alt="wino-RAT Demo">
+</p>
+
+> Add your demonstration GIF to `assets/demo.gif` in the repository.
+
+---
+
+## 🔐 Security
+
+For authorized administration and research environments, the project should use:
+
+- 🔑 Authentication and authorization
+- 🔒 Encrypted communication such as TLS
+- 🛡️ Command validation
+- 📋 Logging and auditing
+- 👤 Least-privilege execution
+- ⚠️ Confirmation before destructive operations
+
+Never use this software to access or control systems without explicit authorization.
+
+---
+
+## ⚠️ Destructive Features
+
+Some features can potentially damage or disrupt a system.
+
+**File Bomb** and **System32 Deletion** are intended only for controlled testing inside an isolated virtual machine or dedicated laboratory environment.
+
+Do not execute destructive functionality against systems or data without explicit authorization.
+
+---
+
+## 📌 Disclaimer
+
+This project is intended for:
+
+- 🎓 Educational purposes
+- 🔬 Cybersecurity research
+- 🖥️ Authorized system administration
+- 🛡️ Authorized security testing
+- 🧪 Isolated laboratory environments
+
+The author is not responsible for damage, data loss, unauthorized access, or misuse resulting from this software.
+
+**Use responsibly and only on systems you are authorized to control.**
+
+---
+
+<p align="center">
+  Made with ❤️ and 🐍 Python
 </p>
